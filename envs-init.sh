@@ -51,6 +51,17 @@ echo "module.exports = {
       DATABASE_AUTHENTICATION_DATABASE: 'gatsby-blog',
       DATABASE_SSL: false,
     }
+  }, {
+    name: 'blog-9000-prod',
+    cwd: __dirname + '/frontend',
+    script: 'yarn',
+    args: 'serve',
+    interpreter: 'none',
+    env: {
+      NODE_ENV: 'development',
+      PORT: '9000',
+      REACT_APP_API_ENDPOINT: 'http://80.87.194.181/api',
+    }
   }],
 };" > ecosystem.prod.config.js &&
 echo "REACT_APP_API_ENDPOINT=\"http://80.87.194.181/api\"" > frontend/.env.production
