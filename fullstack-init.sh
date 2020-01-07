@@ -9,7 +9,7 @@ rm -rf .gitignore &&
 rm -rf README.md &&
 
 # Clone reps
-git clone https://github.com/pravosleva/pravosleva-blog-frontend-gatsby.git frontend &&
+git clone https://github.com/pravosleva/pravosleva-blog-frontend-nextjs.git frontend &&
 git clone https://github.com/pravosleva/pravosleva-blog-backend-mongodb.git backend &&
 
 # Install
@@ -32,7 +32,9 @@ else
   echo "  >> Аlready exists: $UPLOADS_DIR"
 fi
 
-bash envs-init.sh &&
+# === LOOK! First param: gatsby|nextjs
+bash envs-init.sh nextjs &&
+# ===
 
 echo "" &&
 echo "  DEVELOPMENT" &&
