@@ -58,7 +58,7 @@ then
           args: 'serve',
           interpreter: 'none',
           env: {
-            NODE_ENV: 'development',
+            NODE_ENV: 'production',
             PORT: '9000',
             REACT_APP_API_ENDPOINT: 'http://80.87.194.181/api',
           }
