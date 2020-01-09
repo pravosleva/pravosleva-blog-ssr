@@ -40,8 +40,7 @@ echo "" &&
 echo "  DEVELOPMENT" &&
 echo "" &&
 echo "👉 CHECK THIS BEFORE START:" &&
-echo "  🔥 STEP 1: ./ecosystem.dev.config.js" &&
-echo "  🔥 STEP 2 (if you dont use pm2): ./frontend/.env.development" &&
+echo "  🔥 ecosystem.dev.config.js" &&
 echo "" &&
 echo "🚀 $ pm2 start ecosystem.dev.config.js" &&
 echo "" &&
@@ -50,8 +49,7 @@ echo "" &&
 echo "  PRODUCTION" &&
 echo "" &&
 echo "👉 CHECK THIS BEFORE START:" &&
-echo "  🔥 STEP 1: ./frontend/.env.production" &&
-echo "  🔥 STEP 2: ./ecosystem.prod.config.js" &&
+echo "  🔥 ecosystem.prod.config.js" &&
 echo "" &&
 echo "🚀 $ bash build-all-prod.sh" &&
 echo "" &&
