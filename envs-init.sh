@@ -88,7 +88,7 @@ then
           name: 'blog-9000-dev',
           cwd: __dirname + '/frontend',
           script: 'yarn',
-          args: 'start',
+          args: 'dev',
           interpreter: 'none',
           env: {
             NODE_ENV: 'development',
@@ -119,7 +119,7 @@ then
           name: 'blog-9000-prod',
           cwd: __dirname + '/frontend',
           script: 'yarn',
-          args: 'serve',
+          args: 'start',
           interpreter: 'none',
           env: {
             NODE_ENV: 'production',
