@@ -93,6 +93,7 @@ then
           env: {
             NODE_ENV: 'development',
             REACT_APP_API_ENDPOINT: 'http://localhost:1337',
+            REACT_APP_SOCKET_ENDPOINT: 'http://localhost:1337',
           }
         }],
       };" > ecosystem.dev.config.js &&
@@ -123,6 +124,7 @@ then
           env: {
             NODE_ENV: 'production',
             REACT_APP_API_ENDPOINT: 'http://80.87.194.181/api',
+            REACT_APP_SOCKET_ENDPOINT: 'http://80.87.194.181',
           }
         }],
       };" > ecosystem.prod.config.js
