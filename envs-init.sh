@@ -31,6 +31,16 @@ then
             PORT: '8000',
             REACT_APP_API_ENDPOINT: 'http://localhost:1337',
           }
+        }, {
+          name: 'helper-5000-prod',
+          cwd: __dirname + '/url-metadata-helper',
+          script: 'yarn',
+          args: 'start',
+          interpreter: 'none',
+          env: {
+            NODE_ENV: 'production',
+            PORT: '5000',
+          }
         }],
       };" > ecosystem.dev.config.js &&
       echo "module.exports = {
@@ -61,6 +71,16 @@ then
             NODE_ENV: 'production',
             PORT: '9000',
             REACT_APP_API_ENDPOINT: 'http://80.87.194.181/api',
+          }
+        }, {
+          name: 'helper-5000-prod',
+          cwd: __dirname + '/url-metadata-helper',
+          script: 'yarn',
+          args: 'start',
+          interpreter: 'none',
+          env: {
+            NODE_ENV: 'production',
+            PORT: '5000',
           }
         }],
       };" > ecosystem.prod.config.js
@@ -95,6 +115,16 @@ then
             REACT_APP_API_ENDPOINT: 'http://localhost:1337',
             REACT_APP_SOCKET_ENDPOINT: 'http://localhost:1337',
           }
+        }, {
+          name: 'helper-5000-prod',
+          cwd: __dirname + '/url-metadata-helper',
+          script: 'yarn',
+          args: 'start',
+          interpreter: 'none',
+          env: {
+            NODE_ENV: 'production',
+            PORT: '5000',
+          }
         }],
       };" > ecosystem.dev.config.js &&
       echo "module.exports = {
@@ -125,6 +155,16 @@ then
             NODE_ENV: 'production',
             REACT_APP_API_ENDPOINT: 'http://80.87.194.181/api',
             REACT_APP_SOCKET_ENDPOINT: 'http://80.87.194.181',
+          }
+        }, {
+          name: 'helper-5000-prod',
+          cwd: __dirname + '/url-metadata-helper',
+          script: 'yarn',
+          args: 'start',
+          interpreter: 'none',
+          env: {
+            NODE_ENV: 'production',
+            PORT: '5000',
           }
         }],
       };" > ecosystem.prod.config.js
