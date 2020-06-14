@@ -33,7 +33,7 @@ then
           }
         }, {
           name: 'helper-5000-prod',
-          cwd: __dirname + '/url-metadata-helper',
+          cwd: __dirname + '/express-helper',
           script: 'yarn',
           args: 'start',
           interpreter: 'none',
@@ -74,7 +74,7 @@ then
           }
         }, {
           name: 'helper-5000-prod',
-          cwd: __dirname + '/url-metadata-helper',
+          cwd: __dirname + '/express-helper',
           script: 'yarn',
           args: 'start',
           interpreter: 'none',
@@ -117,7 +117,7 @@ then
           }
         }, {
           name: 'helper-5000-prod',
-          cwd: __dirname + '/url-metadata-helper',
+          cwd: __dirname + '/express-helper',
           script: 'yarn',
           args: 'start',
           interpreter: 'none',
@@ -158,7 +158,7 @@ then
           }
         }, {
           name: 'helper-5000-prod',
-          cwd: __dirname + '/url-metadata-helper',
+          cwd: __dirname + '/express-helper',
           script: 'yarn',
           args: 'start',
           interpreter: 'none',

@@ -3,7 +3,7 @@ echo "=== FULLSTACK INIT ===" &&
 
 rm -rf frontend/ &&
 rm -rf backend/ &&
-rm -rf url-metadata-helper/ &&
+rm -rf express-helper/ &&
 
 rm -rf .git/ &&
 rm -rf .gitignore &&
@@ -12,12 +12,12 @@ rm -rf README.md &&
 # Clone reps
 git clone https://github.com/pravosleva/pravosleva-blog-frontend-nextjs.git frontend &&
 git clone https://github.com/pravosleva/pravosleva-blog-backend-mongodb.git backend &&
-git clone https://github.com/pravosleva/url-metadata-helper.git url-metadata-helper &&
+git clone https://github.com/pravosleva/express-helper.git express-helper &&
 
 # Install
 yarn --cwd ./frontend &&
 yarn --cwd ./backend &&
-yarn --cwd ./url-metadata-helper &&
+yarn --cwd ./express-helper &&
 
 # Backend side: Uploads dir init
 BACKEND_DIR="${PWD}/backend"
