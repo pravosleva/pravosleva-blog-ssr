@@ -10,9 +10,9 @@ rm -rf .gitignore &&
 rm -rf README.md &&
 
 # Clone reps
-git clone https://github.com/pravosleva/pravosleva-blog-frontend-nextjs.git frontend &&
-git clone https://github.com/pravosleva/pravosleva-blog-backend-mongodb.git backend &&
-git clone https://github.com/pravosleva/express-helper.git express-helper &&
+git clone git@github.com:pravosleva/pravosleva-blog-frontend-nextjs.git frontend &&
+git clone git@github.com:pravosleva/pravosleva-blog-backend-mongodb.git backend &&
+git clone git@github.com:pravosleva/express-helper.git express-helper &&
 
 # Install
 yarn --cwd ./frontend &&
