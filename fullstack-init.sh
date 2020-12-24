@@ -37,13 +37,15 @@ fi
 
 # === LOOK! First param: gatsby|nextjs
 bash envs-init.sh nextjs &&
+yarn --cwd ./frontend envs-init &&
 # ===
 
 echo "" &&
 echo "  DEVELOPMENT" &&
 echo "" &&
 echo "👉 CHECK THIS BEFORE START:" &&
-echo "  🔥 ecosystem.dev.config.js" &&
+echo "  🔥 ./ecosystem.dev.config.js" &&
+echo "  🔥 ./frontend/.env.dev" &&
 echo "" &&
 echo "🚀 $ pm2 start ecosystem.dev.config.js" &&
 echo "" &&
@@ -52,7 +54,8 @@ echo "" &&
 echo "  PRODUCTION" &&
 echo "" &&
 echo "👉 CHECK THIS BEFORE START:" &&
-echo "  🔥 ecosystem.prod.config.js" &&
+echo "  🔥 ./ecosystem.prod.config.js" &&
+echo "  🔥 ./frontend/.env.prod" &&
 echo "" &&
 echo "🚀 $ bash build-all-prod.sh" &&
 echo "" &&
