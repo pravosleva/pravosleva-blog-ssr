@@ -11,7 +11,8 @@ rm -rf README.md &&
 
 # Clone reps
 git clone git@github.com:pravosleva/pravosleva-blog-frontend-nextjs.git frontend &&
-git clone git@github.com:pravosleva/pravosleva-blog-backend-mongodb.git backend &&
+# git clone git@github.com:pravosleva/pravosleva-blog-backend-mongodb.git backend &&
+git clone git@github.com:pravosleva/pravosleva-blog-2021-backend.git backend &&
 git clone git@github.com:pravosleva/express-helper.git express-helper &&
 
 # Install
